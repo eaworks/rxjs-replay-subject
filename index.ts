@@ -1,7 +1,7 @@
 import { ReplaySubject } from 'rxjs';
-const sub = new ReplaySubject(3);
+const sub = new ReplaySubject(2);
 
-//
+// emit edilen degerlerden belirtilen deger kadar sondan tekrar eder
 
 sub.next(1);
 sub.next(2);
